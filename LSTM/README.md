@@ -1,6 +1,6 @@
 ## RNN
 
-RNN is useful when the order of data carries significance.
+RNN is useful when the order of the data carries significance.
 
 Each unit will be having:
 
