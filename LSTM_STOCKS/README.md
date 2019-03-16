@@ -2,9 +2,13 @@
 
 Here, I am using LSTM model to train the stocks. I have collected the stock's data [here](https://in.finance.yahoo.com/quote/TITAN.NS/history?period1=1205557200&period2=1552626000&interval=1d&filter=history&frequency=1d).
 
+Since we are dealing with time-series data, we can't shuffle and pick random 5% or 10% of data as a out-of-sample data. For our out-of-sample data, we will take last 5% of continuous data.  
+
 Completed:
 
 1. Created a target feature.
+2. Normalized the data.
+3. Created the sequences.
 
 TODO:
 1. Develop the LSTM model.
